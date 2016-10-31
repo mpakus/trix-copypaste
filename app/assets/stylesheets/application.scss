@@ -1,0 +1,16 @@
+//= require trix
+//= require vendor/normalize
+//= require vendor/skeleton
+//= require posts
+//= require_self
+
+$nprogress-color: #46B6EF;
+$nprogress-height: 2px;
+$nprogress-zindex: 10100;
+
+@import 'nprogress';
+@import 'nprogress-bootstrap';
+
+body{
+  padding: 20px 0;
+}
